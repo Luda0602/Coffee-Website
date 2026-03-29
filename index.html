@@ -7,7 +7,7 @@
     <title>Responsive Coffee Website</title>
 
     <!-- Swiper JS CSS-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
 
     <!-- Scroll Reveal -->
     <link rel="stylesheet" href="" />
@@ -37,11 +37,19 @@
           </ul>
 
           <div class="media-icons flex">
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.facebook.com"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://twitter.com/i/flow/login"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/accounts/login"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+            <a href="https://github.com/login"><i class="bx bxl-github"></i></a>
+            <a href="https://www.youtube.com/login"
+              ><i class="bx bxl-youtube"></i
+            ></a>
           </div>
           <i class="bx bx-x navClose-btn"></i>
         </div>
@@ -49,13 +57,28 @@
           <i class="bx bx-phone phone-icon"></i>
           <span class="phone-number">0022-0303-2030</span>
         </div>
+
+        <i class="bx bx-menu navOpen-btn"></i>
       </nav>
     </header>
 
     <!-- Main Section -->
     <main>
       <!-- Home Section -->
-      <section class="home" id="home"></section>
+      <section class="home" id="home">
+        <div class="home-content">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/homeImg1.jpg" alt="" class="home-img" />
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
 
       <!-- About Section -->
       <section class="section about" id="about"></section>
@@ -79,12 +102,12 @@
     </main>
 
     <!-- Swiper JS -->
-    <script src=""></script>
+    <script src="./js/swiper-bundle.min.js"></script>
 
     <!-- Scroll Reveal -->
     <script src=""></script>
 
     <!-- JavaScript -->
-    <script src=""></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
