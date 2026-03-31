@@ -531,7 +531,7 @@ img {
   opacity: 0.4;
   transition: var(--tran-0-5);
 }
-.brand-img:hover {
+.brand-img:hover .brand-img {
   opacity: 1;
 }
 /* Review */
