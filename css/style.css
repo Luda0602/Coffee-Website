@@ -274,7 +274,7 @@ img {
   .navOpen-btn {
     font-size: 2rem;
     cursor: pointer;
-    color: var(--white-color);
+    color: var(--text-color);
   }
 }
 /* Home */
