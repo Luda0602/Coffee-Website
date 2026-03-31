@@ -276,9 +276,6 @@ img {
     cursor: pointer;
     color: var(--white-color);
   }
-  .header-active .navOpen-btn::before {
-    background-color: var(--text-color);
-  }
 }
 /* Home */
 .home {
